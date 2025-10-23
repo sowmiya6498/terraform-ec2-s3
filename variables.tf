@@ -13,11 +13,11 @@ variable "instance_type" {
 variable "ami" {
   description = "Amazon Linux 2 AMI ID"
   type        = string
-  default     = "ami-0abcdef1234567890" # replace with real AMI for your region
+  default     = "ami-06fa3f12191aa3337" # replace with real AMI for your region
 }
 
 variable "bucket_name" {
   description = "S3 bucket name"
   type        = string
-  default     = "sowmiya-demo-bucket-unique-12345"
+  default     = "sowmi-bkt-789456123"
 }

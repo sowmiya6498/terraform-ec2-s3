@@ -19,5 +19,5 @@ variable "ami" {
 variable "bucket_name" {
   description = "S3 bucket name"
   type        = string
-  default     = "sowmi-bkt-789456123"
+  default     = "sowmi-bkt-789456123-new"
 }
